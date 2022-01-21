@@ -24,11 +24,11 @@ jobs:
           # Options
           user: ivan-jelev
           template: classic
-          base: header, activity, community, repositories, metadata
+          base: header, metadata
           config_timezone: Europe/Dublin
-          plugin_isocalendar: yes
-          plugin_isocalendar_duration: half-year
           plugin_languages: yes
+          plugin_languages_indepth: yes
+          commits_authoring: jelev@vizualtech.com, ivan.jelev@sigma.software, ivan@vizualtech.com, ivan.jelev@yahooinc.com, Ivan.Jelev@teamaol.com, ivan.jelev@oath.com, ivan.jelev@verizonmedia.com
           plugin_languages_analysis_timeout: 15
           plugin_languages_categories: markup, programming
           plugin_languages_colors: github
